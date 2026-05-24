@@ -17,18 +17,10 @@
 
     <h1>My Developer Portfolio</h1>
     <p>Check out my latest projects on Replit!</p>
-    <p id="gh-link-container"></p>
-
+    
     <!-- The JavaScript will put the projects inside this div -->
     <div id="portfolio-container"></div>
 
-    <script>
-        const ghUrl = 'https://StamatisKamisakis.github.io/my-portfolio/';
-        if (!window.location.href.startsWith(ghUrl)) {
-            document.getElementById('gh-link-container').innerHTML =
-                `<a class="btn" href="${ghUrl}" target="_blank" rel="noopener noreferrer">Open Portfolio on GitHub Pages</a>`;
-        }
-    </script>
     <script src="script.js"></script>
 </body>
 </html>
