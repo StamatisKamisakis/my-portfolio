@@ -18,12 +18,12 @@ fetch('projects.json')
             const description = document.createElement('p');
             description.textContent = project.description;
 
-            // Add the Replit Button
+            // Add the Live Project Button
             const button = document.createElement('a');
-            button.href = project.replit_link;
-            button.textContent = "View on Replit";
+            button.href = project.live_link; // Διαβάζει το νέο πεδίο
+            button.textContent = "View Live Project"; // Γενικό κείμενο για Vercel/Replit
             button.classList.add('btn');
-            button.target = "_blank"; // This makes it open in a new tab!
+            button.target = "_blank"; // Opens in a new tab!
 
             // Put the title, description, and button inside the card
             card.appendChild(title);
