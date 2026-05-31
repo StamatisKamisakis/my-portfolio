@@ -1,36 +1,29 @@
-// Fetch the data from the JSON file
 fetch('projects.json')
     .then(response => response.json())
     .then(projects => {
         const container = document.getElementById('portfolio-container');
+        container.innerHTML = ''; // Καθαρίζει τα παλιά στοιχεία
 
-        // Loop through every project in the JSON file
         projects.forEach(project => {
-            // Create a card for the project
             const card = document.createElement('div');
             card.classList.add('project-card');
 
-            // Add the Title
             const title = document.createElement('h3');
             title.textContent = project.title;
 
-            // Add the Description
             const description = document.createElement('p');
             description.textContent = project.description;
 
-            // Add the Live Project Button
             const button = document.createElement('a');
-            button.href = project.live_link; // Διαβάζει το νέο πεδίο
-            button.textContent = "View Live Project"; // Γενικό κείμενο για Vercel/Replit
+            button.href = project.live_link; // Πρέπει να γράφει live_link
+            button.textContent = "View Live Project";
             button.classList.add('btn');
-            button.target = "_blank"; // Opens in a new tab!
+            button.target = "_blank";
 
-            // Put the title, description, and button inside the card
             card.appendChild(title);
             card.appendChild(description);
             card.appendChild(button);
 
-            // Put the card on the website
             container.appendChild(card);
         });
     })
