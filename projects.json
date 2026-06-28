@@ -13,5 +13,20 @@
     "title": "Cafe & Wifi Finder",
     "description": "Flask app with SQLAlchemy and SQLite — browse and add cafes with details on wifi, sockets, and seating.",
     "live_link": "https://stamatiskamisakis1992.pythonanywhere.com"
+  }, 
+   {
+    "title": "Morse Code Converter",
+    "description": "Converts text to Morse code and vice versa.",
+    "live_link": "https://code-share-hub--stamatiskamisak.replit.app/"
+  },
+  {
+    "title": "Tic Tac Toe",
+    "description": "An interactive Tic Tac Toe game with a modern UI built using React and Tailwind CSS.",
+    "live_link": "https://my-tictactoe-game-9uzhqs3ig-stamatiskamisakis-projects.vercel.app/"
+  },
+  {
+    "title": "Cafe & Wifi Finder",
+    "description": "Flask app with SQLAlchemy and SQLite — browse and add cafes with details on wifi, sockets, and seating.",
+    "live_link": "https://stamatiskamisakis1992.pythonanywhere.com"
   }
 ]
