@@ -13,5 +13,10 @@
     "title": "Cafe & Wifi Finder",
     "description": "Flask app with SQLAlchemy and SQLite — browse and add cafes with details on wifi, sockets, and seating.",
     "live_link": "https://stamatiskamisakis1992.pythonanywhere.com"
+  },
+  {
+  "title": "Image Colour Palette Generator",
+  "description": "Flask + NumPy web app that analyzes an uploaded image and extracts its 10 most common colours as hex codes.",
+  "live_link": "https://color-palette-generator-8f8h.onrender.com/"
   }
 ]
