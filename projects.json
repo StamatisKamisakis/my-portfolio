@@ -18,5 +18,12 @@
     "title": "Image Colour Palette Generator",
     "description": "Flask + NumPy web app that analyzes an uploaded image and extracts its 10 most common colours as hex codes.",
     "live_link": "https://color-palette-generator-8f8h.onrender.com/"
+  },
+  {
+  "title": "Custom API Web App (Day 96)",
+  "description": "An interactive web application built with Streamlit and Python that consumes external API data in real-time.",
+  "technologies": ["Python", "Streamlit", "REST API", "Requests"],
+  "github_url": "https://github.com/StamatisKamisakis/udemy-100-days-of-code/tree/main/Day%2096",
+  "live_demo_url": "https://udemy-100-days-of-code-jzker4if3s4ervwm3qqqxa.streamlit.app/"
   }
 ]
