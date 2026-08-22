@@ -23,5 +23,10 @@
     "title": "Custom API Web App ",
     "description": "An interactive web application built with Streamlit and Python that consumes external API data in real-time.",
     "live_link": "https://udemy-100-days-of-code-jzker4if3s4ervwm3qqqxa.streamlit.app/"
+  },
+  {
+    "title": "E-Commerce Web Application",
+    "description": "A full-stack e-commerce app built with Streamlit, SQLAlchemy, and Stripe Checkout for seamless online test payments.",
+    "live_link": "https://bdgnh6zhhk4vyqzugwyqtw.streamlit.app/",
   }
 ]
